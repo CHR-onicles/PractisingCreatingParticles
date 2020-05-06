@@ -26,6 +26,8 @@ int main(int agrc, char* args[]){
         //Draw particles
 
         int elapsed = SDL_GetTicks();   //get number of ms since window was created
+        swarm.update();
+        screen.clearScreen();
 
         //gradually increase RBG values from 0 to 255 for pixels
         //also, used different const values ie 0.0001, 0.0002, 0.0003 for the colors to be slightly out of sync
@@ -44,6 +46,7 @@ int main(int agrc, char* args[]){
             //mapping particle coords to screen
             int x = pParticle[i].m_x * Screen::WINDOW_WIDTH / 2;
             int y = pParticle[i].m_y * Screen::WINDOW_HEIGHT / 2;
+            
 
             screen.setPixelColor(x, y, red, green, blue);    //setting color of individual pixels        
         }
