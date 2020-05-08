@@ -6,3 +6,6 @@ positioned randomly across the screen and change colors over time.
 Requirements:
 -Must have SDL2 installed
 -C++ 11 or higher
+
+Updates:
+-Added motion to particles...particles move about randomly but within the window
