@@ -16,7 +16,5 @@ namespace dana {
 		//methods
 		const Particle* const getParticles()const  { return m_particles; } //typing all those consts was just satisfying XD
 
-		void update();
-
 	};
 }

@@ -40,11 +40,6 @@ namespace dana {
 		return true;
 	}
 
-	//to clear screen right after change in particles to prevent trail in colors while animating
-	void Screen::clearScreen() {
-		memset(m_buffer, 0x0, WINDOW_WIDTH * sizeof(Uint32) * WINDOW_HEIGHT);
-	}
-
 	bool Screen::processEvents() {
 
 		//event to check if user closed window
