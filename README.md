@@ -8,4 +8,4 @@ Requirements:
 -C++ 11 or higher
 
 Updates:
--Added motion to particles...particles move about randomly but within the window
+-Added motion to particles...particles move about randomly but within the window.
