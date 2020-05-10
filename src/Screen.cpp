@@ -40,6 +40,10 @@ namespace dana {
 		return true;
 	}
 
+	void Screen::clear() {
+		memset(m_buffer, 0x0, WINDOW_WIDTH * sizeof(Uint32) * WINDOW_HEIGHT);
+	}
+
 	bool Screen::processEvents() {
 
 		//event to check if user closed window

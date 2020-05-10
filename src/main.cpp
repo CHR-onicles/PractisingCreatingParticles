@@ -25,8 +25,12 @@ int main(int agrc, char* args[]){
 
         //Draw particles
 
-        int elapsed = SDL_GetTicks();   //get number of ms since window was created
+        //Update particles
+        
 
+        int elapsed = SDL_GetTicks();   //get number of ms since window was created
+        screen.clear();
+        swarm.update();
         //gradually increase RBG values from 0 to 255 for pixels
         //also, used different const values ie 0.0001, 0.0002, 0.0003 for the colors to be slightly out of sync
         //so that we have that smooth transition effect for the colors

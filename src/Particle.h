@@ -8,8 +8,12 @@ namespace dana {
 		//as is done in actual games.
 		double m_x;
 		double m_y;
+		double m_xspeed;
+		double m_yspeed;
+
 
 		Particle();
+		void update();
 
 	};
 }
