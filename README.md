@@ -7,5 +7,8 @@ positioned randomly across the screen and change colors over time.
 - Must have SDL2 installed
 - C++ 11 or higher
 
+## SCREENSHOT
+<img src = "images/star_field.jpg">
+
 ## Updates:
 -Added motion to particles...particles move about randomly but within the window.
