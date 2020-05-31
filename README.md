@@ -9,6 +9,7 @@ positioned randomly across the screen and change colors over time.
 
 ## SCREENSHOT
 <img src = "images/star_field.jpg">
+<img src = "images/star_field_2.jpg">
 
 ## Updates:
 -Added motion to particles...particles move about randomly but within the window.
